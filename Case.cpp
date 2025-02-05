@@ -25,7 +25,6 @@ namespace tp1
      */
     Case::Case(Case::Couleur couleur, Case::Decoration decoration) : couleur(couleur), decoration(decoration)
     {
-        // Ce constructeur peut rester vide (en utilisant la liste d'initialisation).
     }
 
     /**
@@ -36,7 +35,6 @@ namespace tp1
      */
     Case::~Case()
     {
-        // Réfléchissez s'il faut faire quelque chose !
     }
 
     //Fonction pour aider à afficher plus naturellement une case à l'écran.
@@ -61,8 +59,6 @@ namespace tp1
              return "A";
        }
     }
-
-    //Ne touchez pas à cette fonction.
     
     /**
      * \fn std::ostream& operator<<(std::ostream& os, const Case & uneCase)
